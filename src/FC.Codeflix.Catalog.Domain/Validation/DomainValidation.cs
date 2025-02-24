@@ -18,10 +18,15 @@ public class DomainValidation
     //            $"{fieldName} should not be null");
     //}
 
-    //public static void NotNullOrEmpty(string? target, string fieldName)
-    //{
-    //    if (string.IsNullOrWhiteSpace(target))
-    //        throw new EntityValidationException(
-    //            $"{fieldName} should not be null or empty");
-    //}
+    public static void NotNullOrEmpty2(string? target, string fieldName)
+    {
+        ///
+    }
+
+    public static void NotNullOrEmpty(string? target, string fieldName)
+    {
+        if (string.IsNullOrWhiteSpace(target))
+            throw new EntityValidationException(
+                $"{fieldName} should not be null or empty");
+    }
 }
