@@ -9,6 +9,7 @@ namespace FC.Codeflix.Catalog.Domain.Validation;
 public class DomainValidation
 {
     //tetse
+    //teste2
 
     public static void NotNull(object? target, string fieldName)
     {
